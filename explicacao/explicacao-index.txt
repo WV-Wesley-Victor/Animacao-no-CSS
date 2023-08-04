@@ -1,0 +1,21 @@
+este código cria uma animação CSS de um gato andando em uma estrada. Vou explicar cada parte do código:
+
+- Metadados e Estilos: Os metadados da página e os estilos CSS estão incluídos na seção <head>. Os estilos definidos na seção <style> serão aplicados a elementos HTML na página.
+
+- Estilos Gerais:
+
+    body: Define margens e preenchimento para o corpo do documento.
+    .cat: Define estilos para o elemento que representa o gato. Ele é centralizado horizontalmente (margin: auto) e tem uma largura e altura definidas. A imagem do sprite do gato é definida como plano de fundo (background-image) e ajustada para refletir horizontalmente (transform: scaleX(-1)). A animação chamada anda é aplicada com uma duração de 1 segundo, usando 12 etapas (steps(12)) para percorrer as diferentes imagens do sprite. A animação é repetida infinitamente (infinite).
+    @keyframes anda: Define a animação anda que muda a posição de fundo do sprite do gato para simular o movimento. A posição do plano de fundo é alterada da posição inicial (0 0) para a posição final (0 -2390px) para percorrer o sprite completo.
+
+- Elementos na Página:
+
+    <ul>: Uma lista não ordenada (<ul>) é usada para criar uma barra de navegação horizontal com links para outras páginas.
+    <li>: Cada item de lista (<li>) contém um link (<a>) para diferentes páginas. Os links estão estilizados com sombras, cores de fundo e transições.
+
+- Elementos de Animação:
+
+    .cat: Um elemento <div> com a classe .cat representa a animação do gato andando. O sprite do gato é animado usando a animação anda.
+    .road: Outro elemento <div> com a classe .road representa a estrada onde o gato está andando. Ele tem uma largura de 100% e uma altura calculada para ocupar a altura total da janela de visualização, menos a altura do gato.
+
+No geral, o código cria uma cena de animação onde um gato é animado para andar em uma estrada preta. A animação é controlada pelo uso de sprites e keyframes CSS.
