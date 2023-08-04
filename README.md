@@ -3,7 +3,7 @@
 
 ![Captura de Tela (60)](https://github.com/WV-Wesley-Victor/Animacao-no-CSS/assets/137107062/6b6a3732-9383-4155-bb06-49ec1e2e3369)
 <p align="center">
-  <a href="https://wv-wesley-victor.github.io/Introducao-ao-HTML/" target="_blank">Clique aqui para visitar o projeto</a>
+  <a href="https://wv-wesley-victor.github.io/Animacao-no-CSS/" target="_blank">Clique aqui para visitar o projeto</a>
 </p>
 
 ## Decrição 
